@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import * as $ from 'jquery';
+// import * as $ from 'jquery';
 
 @Component({
   selector: 'app-navbar-menu',
   templateUrl: './navbar-menu.component.html',
   styleUrls: ['./navbar-menu.component.css']
 })
+
 export class NavbarMenuComponent implements OnInit {
 
   constructor() {
@@ -21,13 +22,30 @@ export class NavbarMenuComponent implements OnInit {
     // }
 
   ngOnInit() {
-    $(document).ready(function(){
-      $('.menu-left i').click(function(event){
-        event.preventDefault();
-        let mobileMenu =  $('.menu');
-        mobileMenu.toggleClass('menu-open');
-      });
+    let button = document.querySelector('.menu-left .menu-button');
+
+    button.addEventListener('click', function(){
+      document.querySelector('.menu').classList.toggle('menu-open');
+
     });
-  }
+  //   $(document).ready(function(){
+  //     $('.menu-left i').click(function(event){
+  //       event.preventDefault();
+  //       let mobileMenu =  $('.menu');
+  //       mobileMenu.toggleClass('menu-open');
+  //     });
+  //   });
+  // }
+    // document.querySelector('menu').onclick=function() {
+    //   let mobileMenu =  $('.menu');
+    //   mobileMenu.toggleClass('menu-open');
+    // }
+  };
+
+
+  // document.querySelector('.menu-button').addEventListener('click', () => {
+  //            //function here
+  //            console.log('your result');
+  //         });
 
 }

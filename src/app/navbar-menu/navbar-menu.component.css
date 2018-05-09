@@ -40,6 +40,8 @@
 }
 
 .menu {
+  display: flex;
+  flex-direction: column;
   position: fixed;
   z-index: 9999;
   top: -70%;
@@ -47,6 +49,8 @@
 }
 
 .menu-open {
+  display: flex;
+  width: 100%;
   top: 50px;
 }
 
@@ -54,20 +58,23 @@
   right: 0;
 }
 
-.menu hr.first-hr {
-  margin-top: 0;
-}
-
-.menu hr.last-hr {
-  margin-bottom: 0;
-}
-
 .menu p {
+  display: flex;
   color: grey;
   font-size: 1.25rem;
   font-weight: lighter;
-  margin: 0 1rem;
-  line-height: 1rem;
+  padding: 0 1rem;
+  line-height: 3rem;
+  border-bottom: 1px solid lightgrey;
+}
+
+.menu p.first {
+  color: grey;
+  font-size: 1.25rem;
+  font-weight: lighter;
+  padding: 0 1rem;
+  line-height: 3rem;
+  border-top: 1px solid lightgrey;
 }
 
 .menu p:hover {
