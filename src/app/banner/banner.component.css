@@ -1,0 +1,17 @@
+.banner{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1443655087/cydmjtzutdkd9erzuab3.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+  }
+
+.banner-text {
+  color: white;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
