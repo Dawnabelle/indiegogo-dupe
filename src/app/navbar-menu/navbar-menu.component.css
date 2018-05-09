@@ -1,0 +1,38 @@
+.navbar-menu {
+  border: 2px solid hotpink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-menu .menu-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-menu .menu-right {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.navbar-menu .menu-left i {
+  font-size: 1.5rem;
+}
+
+.menu {
+  border: 1px solid black;
+}
+
+.menu hr.first-hr {
+  margin-top: 0;
+}
+
+.menu p {
+  border: 1px solid black;
+  font-size: 1.25rem;
+  font-weight: lighter;
+  margin: 0 1rem;
+  line-height: 1rem;
+}
