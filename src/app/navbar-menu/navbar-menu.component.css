@@ -43,15 +43,17 @@
   display: flex;
   flex-direction: column;
   position: fixed;
-  z-index: 9999;
-  top: -70%;
+  z-index: 10000;
+  left: -94%;
+  background-color: white;
   transition: all 500ms ease;
 }
 
 .menu-open {
   display: flex;
   width: 100%;
-  top: 50px;
+  left: 0;
+  z-index: 9999;
 }
 
 .menu-left.menu-button {

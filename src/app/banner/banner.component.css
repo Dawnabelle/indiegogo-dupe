@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: center;
   background-size: contain;
+  position: relative;
+  margin-bottom: -16px;
   }
 
 .banner-text {
@@ -14,4 +16,11 @@
   align-items: center;
   justify-content: center;
   margin: 2rem;
+  position: relative;
+}
+
+.social-banner {
+  height: 70px;
+  background-color: rgb(245,245,245);
+  margin: 0;
 }

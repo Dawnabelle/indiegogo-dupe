@@ -1,3 +1,11 @@
 p, h1, h2, h3, h4, h5, ul, li {
   font-family: "PT Sans", sans-serif;
 }
+
+ul, li, dl {
+  margin: 0;
+}
+html, body {
+  padding: 0;
+  margin: 0;
+}
